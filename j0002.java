@@ -15,7 +15,7 @@ class j0002 {
             bonus = 200;
             level_completed = 8;
             int second_score = score + (level_completed * bonus);
-            System.out.println("Your Second Final Score is " + second_score);
+            System.out.println("Your Second Final Score is this " + second_score);
         }
     }
 }
