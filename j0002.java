@@ -6,7 +6,7 @@ class j0002 {
         int score = 800;
         int bonus = 100;
         int level_completed = 5;
-        mainr(game_over, score, bonus, level_completed);
+        main_r(game_over, score, bonus, level_completed);
         score = 10000;
         bonus = 200;
         level_completed = 9;
@@ -16,8 +16,9 @@ class j0002 {
         }
     }
 
-    public static void mainr(boolean game_over, int score, int bonus, int level_completed) {
-        if (game_over) {
+    public static void main_r(boolean game_over, int score, int bonus, int level_completed) {
+        if (game_over)
+        {
             int final_score = score + (level_completed * bonus);
             System.out.println("Your final Score is " + final_score);
         }
